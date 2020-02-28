@@ -1,0 +1,177 @@
+body{
+    font-family: 'Poppins', ;
+    margin: 0;
+}
+/*header part design */
+
+.top-part{
+    height:450px;
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+   
+    
+}
+
+.half-area{
+    width:40%;
+    float: left;
+    padding:100px;
+    margin: 10px 80px;
+
+}
+.half-area p{
+     margin-top: 45px ;
+}
+.img-area img{
+     width:330px;
+     height:330px;
+     border-radius: 50%;
+     border:1px solid tomato;
+     margin-top: 90px;
+}
+.name-color{
+       color: #FF1493;
+       font-size: 40px;
+}
+.button-hireme{
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid orange;
+    color:white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-image: linear-gradien(45deg ,#C71585,tomato);
+    background-color: salmon;
+    
+}
+
+/*Biography Part Design */
+
+.biography-part{
+     height: 550px;
+     background-image: url('images/biography-bg.png');
+     background-repeat: no-repeat;
+
+}
+
+.img-half-area img{
+    
+     border:1px solid tomato;
+     margin-top: 150px;
+     width: 25%;
+     height: 25%;
+     border-radius: 50%;
+     margin-right: 300px;
+     margin-left: 150px;
+    
+}
+.bio-half-area{
+    width:37%;
+    float: left ;
+    margin-top: 180px;
+  
+     
+}
+
+.button-cv{
+    margin-top: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid orange;
+    color:white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-image: linear-gradien(45deg ,#C71585,tomato);
+    background-color:#FF1493;
+    
+}
+
+.bio-half-area p{
+    margin-top: 45px ;
+}
+.name-bio{
+     font-size: 40px;
+}
+
+/*My lastest Work part Design*/
+
+.lastest-work{
+     height: 500px;
+     background-image: url('images/latest-work-bg.png');
+     background-repeat: no-repeat;
+     
+    
+}
+.lastest-work h1{
+     font-size: 40px;
+     text-align: center;
+     margin-top: 100px;
+}
+.onethird-area-img1 img{
+     width:250px;
+     height:250px;
+     background-repeat: no-repeat;
+     float: left;
+     margin:40px 10px 10px  140px;
+}
+.onethird-area-img2 img{
+    width:250px;
+    height:250px;
+    background-repeat: no-repeat;
+    float: left;
+    margin:40px 10px  10px  140px;
+}
+
+.onethird-area-img3 img{
+    width:250px;
+    height:250px;
+    background-repeat: no-repeat;
+    margin:40px 10px  10px  140px;
+}
+
+/*Client part & footer design*/
+
+.client-part{
+     height:550px;
+     background-image: url('images/footer-bg.png');
+     background-repeat: no-repeat;
+}
+.client-area{
+     text-align: center;
+}
+.client-area h1{
+     font-size: 30px;
+}
+
+.client-area h4{
+     margin-bottom: 5px;
+}
+.client-area span{
+    color:lightgray;
+    opacity: 1;
+    margin-top: 10px;
+   
+}
+.client-area p{
+     font-size: 20px;
+     margin-top: 40px;
+}
+.email{
+     text-align: center;
+     border: 1px solid #FF1493;
+     width:800px;
+     height: 160px;
+     background-color: #FF1493;
+     color: white;
+     margin-left: 300px;
+     margin-top: 30px;
+}
+.email p{
+    font-size: 25px;
+}
+
+footer p{
+     text-align: center;
+     font-size: 18px;
+}
